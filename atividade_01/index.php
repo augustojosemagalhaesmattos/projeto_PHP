@@ -2,10 +2,46 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Formulario</title>
 </head>
 <body>
+
+    
+    <header>
+        <h1>Calculadora: Operadores Aritméticos</h1>
+    </header>
+
+
+    <main>
+        <div class="caixa">
+            <form id="meuFormulario" metthod="POST" action="processa.php">
+
+                <section class="caixa1">
+                        <label>Digite o primeiro número: </label><br>
+                        <input type="text" id="numero1" name="valor1" required><br>
+                </section>
+
+                <section class="caixa2">
+                        <label>Digite o segundo número: </label><br>
+                        <input type="text" id="numero2" name="valor2" required><br>
+                </section>
+
+                <section class="operacoes">
+                        <label>Escolha a operação: </label><br>
+                        <select name="operacao" required>
+                            <option value="">--Selecione--</option>
+                            <option value="adicao">Adição</option>
+                            <option value="subtracao">Subtração</option>
+                            <option value="multiplicacao">Multiplicação</option>
+                            <option value="divisao">Divisão</option>
+                        </select>
+                </section>
+                <button type="submit" class="btnCalcular">Calcular</button>
+            </form>   
+        </div>
+    </main>
+
     
 </body>
 </html>

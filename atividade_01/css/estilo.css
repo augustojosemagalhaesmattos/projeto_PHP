@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    background-color: rgb(212, 230, 253);
+    align-items: center;
+}
+
+header {
+    padding: 23px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caixa {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 50px;
+
+}
+
+#numero1 {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+#numero2 {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.btnCalcular {
+    margin: 15px;
+}
+

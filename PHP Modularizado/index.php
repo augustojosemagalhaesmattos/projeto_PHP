@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Formulario</title>
@@ -18,7 +18,7 @@
      <form method="POST" action= "processa.php">
 
      <!-- Texto explicado o que o usuario deve fazer -->
-      <label>Digite sua mensagem:</label><br>
+            <label>Digite sua mensagem:</label><br>
 
       <!--
             Campo de texto onde o usuario digita a mensagem.

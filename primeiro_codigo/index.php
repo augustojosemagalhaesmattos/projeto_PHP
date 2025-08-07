@@ -14,7 +14,7 @@
     -method"GET": envia os dados pela URL (ex: ?mensagem=texto)
     -action="": significa que o formulário será enviado para a propria pagina
     -->
-    <form method="GET" action="">
+    <form method="POST" action="processa.php">
         <label>Digite sua mensagem:</label><br>
 
         <!-- Campo de texto onde o usuário digita -->
@@ -24,6 +24,7 @@
          <button type="submit">Enviar</button>
     </form>
 
-    <form method="POST" action="processa.php
+
+
 </body>
 </html>
