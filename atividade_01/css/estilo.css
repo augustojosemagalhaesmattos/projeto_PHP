@@ -1,44 +1,60 @@
 body {
-    margin: 0px;
-    background-color: rgb(212, 230, 253);
-    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #e6f0fa;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    padding: 23px;
-    background-color: blue;
+    background-color: #0073c2;
     color: white;
     text-align: center;
+    padding: 15px 0;
 }
 
-main {
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .caixa {
     background-color: white;
+    max-width: 300px;
+    margin: 50px auto;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 50px;
-
-}
-
-#numero1 {
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-}
-
-#numero2 {
-    padding: 10px;
-    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.btnCalcular {
-    margin: 15px;
+label {
+    font-size: 14px;
 }
 
+input, select {
+    width: 100%;
+    padding: 6px;
+    margin: 6px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0073c2;
+    color: white;
+    border: none;
+    padding: 8px 0;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(3, 107, 211);
+    font-family: Arial, sans-serif;
+    margin: 35px auto 0 auto;
+}
+
+button:hover {
+    background-color: #005fa0;
+}

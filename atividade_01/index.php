@@ -15,7 +15,7 @@
 
     <main>
         <div class="caixa">
-            <form id="meuFormulario" metthod="POST" action="processa.php">
+            <form id="meuFormulario" method="POST" action="resultado.php">
 
                 <section class="caixa1">
                         <label>Digite o primeiro número: </label><br>
@@ -29,15 +29,15 @@
 
                 <section class="operacoes">
                         <label>Escolha a operação: </label><br>
-                        <select name="operacao" required>
+                        <select id= "opcoes" name="operacao" equired>
                             <option value="">--Selecione--</option>
-                            <option value="adicao">Adição</option>
-                            <option value="subtracao">Subtração</option>
-                            <option value="multiplicacao">Multiplicação</option>
-                            <option value="divisao">Divisão</option>
+                            <option value="+">Adição (+)</option>
+                            <option value="-">Subtração (-)</option>
+                            <option value="*">Multiplicação (x)</option>
+                            <option value="÷">Divisão (÷)</option>
                         </select>
                 </section>
-                <button type="submit" class="btnCalcular">Calcular</button>
+                <button type="submit" id="btnCalcular">Calcular</button>
             </form>   
         </div>
     </main>
