@@ -35,8 +35,13 @@
             echo "<pre>";
             print_r($array);
             echo "</pre>";
-            // 
+            // Aplica a função shuffle() para embaralhar os elementos do array
+            shuffle($array); // IMPORTANTE: isso remove as chaves associativas!
+            // Exibe o array após o embaralhamento
+            echo "<pre>";
+            print_r($array);
+            echo "</pre>";
+        ?>
     </main>
-    
 </body>
 </html>
